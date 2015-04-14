@@ -1,4 +1,6 @@
-﻿namespace PokerPlayer
+﻿using System.Threading;
+
+namespace PokerPlayer
 {
     using PokerPlayer.Generated;
 
@@ -20,6 +22,7 @@
 
         public int BetRequest(Rootobject gameState)
         {
+            Thread.Sleep(2000);
             return 0;
         }
     }
