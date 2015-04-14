@@ -22,7 +22,7 @@ namespace PokerPlayer
 
         public int BetRequest(Rootobject gameState)
         {
-            Thread.Sleep(350);
+            Thread.Sleep(200);
             return 0;
         }
     }
